@@ -1,7 +1,8 @@
 repo_name: marvinscham/duolingo.py
 report_id: e5f4eb5921b35055df16096cb5af36d9
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-11T06:44:30+00:00'
+timestamp: '2024-01-05T08:51:41+00:00'
 requested_by: SpangleLabs
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/marvinscham/duolingo.py
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/marvinscham/duolingo.py
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -34,7 +37,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/test.yml"
+  detection_source_url: https://github.com/marvinscham/duolingo.py/blob/master/.github/workflows/publish-pypi.yml
+  detection_source: ".github/workflows/publish-pypi.yml"
   last_updated_by: Joshua Coales
   last_updated_on: 2021-02-19 21:47:16.000000000 Z
 - name: PyPI
@@ -45,18 +49,20 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/marvinscham/duolingo.py/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: ZuluPro
   last_updated_on: 2016-02-26 13:33:10.000000000 Z
 - name: requests
   description: Python HTTP for Humans
-  package_url: https://pypi.org/requests
+  package_url: https://pypi.org/project/requests
   license: Apache-2.0
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/marvinscham/duolingo.py/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: ZuluPro
   last_updated_on: 2016-02-26 13:33:10.000000000 Z
